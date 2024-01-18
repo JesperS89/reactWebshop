@@ -1,0 +1,29 @@
+.menucontainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  * {
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  h3 {
+    color: black;
+    cursor: pointer;
+  }
+  li {
+    cursor: pointer;
+    color: black;
+    list-style: none;
+  }
+  button {
+    margin-top: 50px;
+    border: none;
+    background-color: #4a5240;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 800;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}

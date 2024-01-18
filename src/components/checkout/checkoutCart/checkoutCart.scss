@@ -1,0 +1,31 @@
+.checkoutcart {
+  height: 80vh;
+  &__card {
+    background-color: #f2f2f2;
+    margin-top: 3px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    button {
+      border: none;
+      background-color: #4a524000;
+      color: #4a5240;
+      font-size: 30px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+  }
+  &__imgcontainer {
+    width: 50px;
+    img {
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__productnamecontainer {
+    width: 40%;
+  }
+}

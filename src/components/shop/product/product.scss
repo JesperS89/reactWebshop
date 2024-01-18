@@ -1,0 +1,41 @@
+.productcontainer {
+  width: 250px;
+  justify-content: flex-end;
+}
+
+.imgcontainer {
+  height: 50%;
+}
+
+.productimg {
+  border-radius: 3px;
+
+  height: 100%;
+  width: 100%;
+}
+p {
+  color: black;
+  margin: 2px 0px;
+  font-weight: 600;
+}
+
+.addtocartbutton {
+  background-color: #4a5240;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.productname {
+  height: 40px;
+}
+
+.productclickcontainer {
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.qawrapper {
+  height: calc(100vh - 60px);
+  margin-top: 60px;
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__card {
+    width: 60%;
+    margin-bottom: 5px;
+  }
+}
+
+.showanswer {
+  margin-top: 8px;
+}
+
+.hideanswer {
+  display: none;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+}
